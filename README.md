@@ -51,8 +51,8 @@ print(chatBot.get_response("What is your name?"))
 
 Further you can train your chat bot using ChatterBotCorpusTrainer 
 ```
-// corpusTrainer = ChatterBotCorpusTrainer(chatBot)
-// corpusTrainer.train('chatterbot.corpus.english')
+corpusTrainer = ChatterBotCorpusTrainer(chatBot)
+corpusTrainer.train('chatterbot.corpus.english')
 ```
 
 Thank you ! Happy coding.
